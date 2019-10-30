@@ -1,0 +1,144 @@
+.banner {
+    margin-top: 99px;
+    background: url(../imgs/banner@2x.png) no-repeat center;
+    background-size: cover;
+    height: 670px;
+}
+
+.banner .title {
+    font-size: 60px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 36px;
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    line-height: 670px;
+    text-align: center;
+}
+
+.infoGroup {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.infoGroup .line {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 66px;
+    left: 0;
+    background: #f0f0f0;
+}
+
+.infoGroup .header {
+    line-height: 80px;
+    color: rgb(27, 40, 78);
+    margin-bottom: 25px;
+}
+
+.infoGroup .header ul{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+.infoGroup .header ul li{
+    float: left;
+    list-style-type: none;
+    margin: 0 30px;
+    opacity: 0.8;
+    transition: 0.3s all;
+}
+.infoGroup .header ul li:active,.infoGroup .header ul li:hover{
+    opacity: 0.5;
+}
+.infoGroup .header ul li img{
+    width: 25px;
+}
+
+.infoGroup .header span {
+    border-bottom: 5px solid rgb(27, 40, 78);
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.infoGroup .list .item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.infoGroup .list .item .img {
+    width: 120px;
+    height: 100px;
+}
+
+.infoGroup .list .item .right {
+    flex: 1;
+    padding: 10px 13px;
+    font-size: 14px;
+}
+
+.infoGroup .list .item .right .title {
+    color: rgb(27, 40, 78);
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    margin-bottom: 10px;
+}
+
+.infoGroup .list .item .right .desc {
+    color: #777;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.infoGroup .cardList .card{
+    border: none;
+    padding: 15px;
+    padding-top: 0;
+}
+.infoGroup .cardList .card img{
+    width: 100%;
+    height: auto;
+}
+.infoGroup .cardList .card p{
+    font-size: 14px;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    color: rgb(27, 40, 78);
+    text-align: center;
+    padding-top: 8px;
+}
+.infoGroup .projectList a{
+    text-decoration: none;
+}
+.infoGroup .projectList a:active p,.infoGroup .projectList a:hover p{
+    opacity: 0.8;
+}
+.infoGroup .projectList a p{
+    color: rgb(27, 40, 78);
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+}
+.infoGroup .projectList a p::before{
+    content: '•';
+    padding-right: 10px;
+    list-style: none;
+    font-weight: bolder;
+}

@@ -1,0 +1,16 @@
+.navBar {
+    /* min-height: 99px; */
+    background-color: #fff !important;
+    border-bottom: 1px solid #f0f0f0;
+    box-sizing: border-box;
+}
+
+.navBar .navbar-brand {
+    font-size: 24px;
+    color: rgb(27, 40, 78);
+    font-weight: 500;
+    line-height: 73px;
+}
+.navBar a{
+    color: rgb(27, 40, 78);
+}
