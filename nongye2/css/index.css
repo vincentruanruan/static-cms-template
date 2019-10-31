@@ -1,0 +1,411 @@
+.banner {
+    height: 850px;
+    background: url(../imgs/bannere@2x.png) no-repeat center;
+    color: #fff;
+    text-align: center;
+    padding-top: 250px;
+    text-transform: uppercase;
+}
+
+.banner h1 {
+    font-size: 72px;
+    font-family: PingFang SC;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    line-height: 160px;
+}
+
+.banner h4 {
+    font-size: 20px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 48px;
+}
+
+.banner .btn {
+    margin-top: 105px;
+}
+
+.banner .btn button {
+    color: #fff;
+    margin: 0 28px;
+    width: 174px;
+    height: 68px;
+    font-size: 20px;
+    transition: 0.3s all;
+}
+
+.banner .btn button:nth-child(1) {
+    background: none;
+}
+
+.banner .btn button:nth-child(1):active {
+    background: rgba(255, 255, 255, 0.5);
+    color: #fff;
+}
+
+.banner .btn button:nth-child(2) {
+    background: rgba(174, 190, 39, 1);
+    border-color: rgba(174, 190, 39, 1);
+}
+
+.banner .btn button:nth-child(2):active {
+    color: #fff;
+    background: rgba(174, 190, 39, 0.5);
+}
+
+.welcome {
+    margin-top: 220px;
+    font-size: 30px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 48px;
+}
+
+.welcome .desc {
+    position: relative;
+}
+
+.welcome .desc .line {
+    position: absolute;
+    width: 94px;
+    height: 5px;
+    background: rgba(51, 51, 51, 1);
+    bottom: 0;
+    left: 0;
+}
+
+.welcome .title h1 {
+    margin-top: 117px;
+    text-transform: uppercase;
+    font-size: 54px;
+    font-family: PingFang SC;
+    font-weight: 600;
+    color: rgba(51, 51, 51, 1);
+    line-height: 48px;
+}
+
+.welcomeImg {
+    margin-top: 83px;
+    height: 414px;
+    display: flex;
+}
+
+.welcomeImg .item {
+    height: 100%;
+    flex: 1;
+}
+
+.welcomeImg .item .bg {
+    height: 100%;
+}
+
+.welcomeImg .item:nth-child(1) {
+    padding-right: 15px;
+}
+
+.welcomeImg .item:nth-child(1) .bg {
+    background: url(../imgs/welcomeImg1@2x.png) center;
+    background-size: cover;
+}
+
+.welcomeImg .item:nth-child(2) {
+    padding-left: 15px;
+}
+
+.welcomeImg .item:nth-child(2) .bg {
+    background: url(../imgs/welcomeImg2@2x.png) center;
+    background-size: cover;
+    ;
+}
+
+.welcomeDesc {
+    margin-top: 65px;
+    margin-bottom: 150PX;
+}
+
+.welcomeDesc p {
+    font-size: 18px;
+    font-family: PingFang SC;
+    font-weight: 600;
+    color: rgba(102, 102, 102, 1);
+    line-height: 30px;
+    padding-right: 40px;
+}
+
+.welcomeDesc button {
+    margin-top: 55px;
+    border: 4px solid rgba(53, 54, 48, 1);
+    height: 70px;
+    width: 174px;
+    margin-bottom: 73px;
+    text-transform: uppercase;
+}
+
+.welcomeDesc button:hover {
+    background: none;
+}
+
+.servicesBox {
+    height: 1187px;
+    position: relative;
+    color: #fff;
+}
+
+.servicesBox .item {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0;
+}
+
+.servicesBox .item:nth-child(1) {
+    left: 0;
+    background: rgb(47, 47, 43);
+}
+
+.servicesBox .item:nth-child(2) {
+    right: 0;
+    background: url(../imgs/servicesBox@2x.png) center;
+    background-size: cover;
+}
+
+.servicesBox .info .sub {
+    position: relative;
+}
+
+.servicesBox .info .sub .subTitle {
+    margin-top: 187px;
+    font-size: 36px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 48px;
+    padding-bottom: 70px;
+    text-transform: capitalize;
+}
+
+.servicesBox .info .sub .subLine {
+    width: 94px;
+    height: 5px;
+    background: rgba(255, 255, 255, 1);
+    bottom: 0;
+    left: 20px;
+    position: absolute;
+}
+
+.servicesBox .info .title {
+    font-size: 54px;
+    font-family: PingFang SC;
+    font-weight: 600;
+    color: rgba(254, 254, 254, 1);
+    line-height: 48px;
+    padding: 118px 0 82px 0;
+    text-transform: uppercase;
+}
+
+.servicesBox .info .desc {
+    font-size: 18px;
+    font-family: PingFang SC;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    line-height: 30px;
+}
+
+.servicesBox .info .more {
+    margin-top: 56px;
+    text-transform: uppercase;
+    width: 174px;
+    height: 70px;
+    border: 4px solid rgba(255, 255, 255, 1);
+    background: none;
+    font-size: 18px;
+    font-family: PingFang SC;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    line-height: 30px;
+}
+
+.imgList {
+    width: 100%;
+    max-width: initial;
+}
+
+.imgList .item {
+    height: 800px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0;
+}
+
+.imgList .item:nth-child(1) {
+    background: url(../imgs/imgList1@2x.png);
+    background-size: cover;
+}
+
+.imgList .item:nth-child(2) {
+    background: url(../imgs/imgList2@2x.png);
+    background-size: cover;
+}
+
+.imgList .item:nth-child(3) {
+    background: url(../imgs/imgList3@2x.png);
+    background-size: cover;
+}
+
+.imgList .item:nth-child(4) {
+    background: url(../imgs/imgList4@2x.png);
+    background-size: cover;
+}
+
+.imgList .item {
+    padding-top: 355px;
+    text-align: center;
+}
+
+.imgList .item .bg {
+    position: relative;
+}
+
+.imgList .item .bg .title {
+    font-size: 54px;
+    font-family: PingFang SC;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    line-height: 30px;
+    padding-bottom: 70px;
+}
+
+.imgList .item .bg .line {
+    position: absolute;
+    top: 75px;
+    width: 94px;
+    height: 5px;
+    background: rgba(255, 255, 255, 1);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.imgList .item .bg .more {
+    margin-top: 30px;
+}
+
+.imgList .item .bg .more span {
+    cursor: pointer;
+    font-size: 18px;
+    font-family: PingFang SC;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    line-height: 30px;
+}
+
+.coreValues {
+    height: 1187px;
+    position: relative;
+    color: #fff;
+}
+
+.coreValues .item {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0;
+}
+
+.coreValues .item:nth-child(1) {
+    left: 0;
+    background: rgb(164, 182, 48);
+}
+
+.coreValues .item:nth-child(2) {
+    right: 0;
+    background: url(../imgs/coreValues@2x.png) center;
+    background-size: cover;
+}
+
+.coreValues .info .sub {
+    position: relative;
+}
+
+.coreValues .info .sub .subTitle {
+    margin-top: 187px;
+    font-size: 36px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 48px;
+    padding-bottom: 70px;
+    text-transform: capitalize;
+}
+
+.coreValues .info .sub .subLine {
+    width: 94px;
+    height: 5px;
+    background: rgba(255, 255, 255, 1);
+    bottom: 0;
+    left: 20px;
+    position: absolute;
+}
+
+.coreValues .info .title {
+    font-size: 54px;
+    font-family: PingFang SC;
+    font-weight: 600;
+    color: rgba(254, 254, 254, 1);
+    line-height: 48px;
+    padding: 118px 0 82px 0;
+    text-transform: uppercase;
+}
+
+.coreValues .info .desc {
+    font-size: 18px;
+    font-family: PingFang SC;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    line-height: 30px;
+}
+
+.coreValues .info .more {
+    margin-top: 56px;
+    text-transform: uppercase;
+    width: 174px;
+    height: 70px;
+    border: 4px solid rgba(255, 255, 255, 1);
+    background: none;
+    font-size: 18px;
+    font-family: PingFang SC;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    line-height: 30px;
+}
+
+.gallery .title {
+    position: relative;
+}
+
+.gallery .title h1 {
+    line-height: 381px;
+    font-size: 54px;
+    font-family: PingFang SC;
+    font-weight: 600;
+    color: rgba(51, 51, 51, 1);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.gallery .title .line {
+    position: absolute;
+    width: 94px;
+    height: 5px;
+    background: rgba(51, 51, 51, 1);
+    top: 247px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.gallery .bigImg{
+    height: 1128px;
+    background: url(../imgs/bigImg@2x.png) center;
+    background-size: cover;
+}
