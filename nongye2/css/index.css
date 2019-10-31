@@ -1,6 +1,6 @@
 .banner {
     height: 850px;
-    background: url(../imgs/bannere@2x.png) no-repeat center;
+    background: url(../imgs/banner1@2x.png) no-repeat center;
     color: #fff;
     text-align: center;
     padding-top: 250px;
@@ -404,7 +404,8 @@
     left: 50%;
     transform: translateX(-50%);
 }
-.gallery .bigImg{
+
+.gallery .bigImg {
     height: 1128px;
     background: url(../imgs/bigImg@2x.png) center;
     background-size: cover;

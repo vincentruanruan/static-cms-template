@@ -1,0 +1,41 @@
+.footer {
+    background: #000;
+    color: #fff;
+}
+
+.footer hr {
+    margin-top: 96px;
+    border-color: #fff;
+}
+
+.footer .left, .footer .right {
+    padding-top: 45px;
+    padding-bottom: 130px;
+}
+
+.footer .left {
+    font-size: 16px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 30px;
+}
+
+.footer .right ul {
+    float: right;
+}
+
+.footer .right ul a {
+    display: inline-block;
+    font-size: 16px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 30px;
+}
+
+.footer .right ul a li {
+    float: left;
+    margin: 0 5px;
+    list-style-type: none;
+}

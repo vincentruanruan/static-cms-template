@@ -11,6 +11,32 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navBar fixed-top">
+        <a class="navbar-brand" href="#"><span>L</span><span>o</span><span>g</span><span>o</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-lg-around" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="./">首页</a>
+                    <div class="line"></div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./">产品</a>
+                    <div class="line"></div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./">详情</a>
+                    <div class="line"></div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./">联系我们</a>
+                    <div class="line"></div>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="banner">
         <h1>improve your crop</h1>
         <h4>implementing new technologies for agriculture crowth</h4>
@@ -173,12 +199,40 @@
         </div>
         <div class="bigImg"></div>
     </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-12 col-12">
+                    <div class="left">
+                        Capitalise on low hanging fruit to identify a ballpark value added activity to beta test. 
+                        Override the  digital divide with additional clickthroughs.  
+                    </div>                      
+                </div>
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="right">
+                        <ul>
+                            <a href="#"><li>Home</li></a>
+                            <a href="#"><li>product</li></a>
+                            <a href="#"><li>pages</li></a>
+                            <a href="#"><li>contact</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="./js/jquery-3.4.1.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
+<script src="./js/common.js"></script>
 <script >
     $(function () {
-        
+        setNav(1)
     })
 </script>
 </html>
