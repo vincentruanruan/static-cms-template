@@ -61,7 +61,7 @@
     top: 50%;
     left: 50%;
     transform: translate3d(-50%, -50%, 0);
-    padding:0 30px;
+    padding: 0 30px;
 }
 
 .wordImg .item .bg .inner h3 {
@@ -107,6 +107,154 @@
     display: inline-block;
     padding-bottom: 100%;
     vertical-align: middle;
+}
+
+.partners {
+    margin-top: 60px;
+    padding-bottom: 25px;
+}
+
+.partners .header h1 {
+    font-size: 36px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 25px;
+    margin-bottom: 90px;
+}
+
+.partners .header h1 .line {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 94px;
+    height: 5px;
+    background: rgba(51, 51, 51, 1);
+    position: absolute;
+}
+
+.partners .list .item {
+    padding: 10px;
+}
+
+.partners .list .item img {
+    width: 100%;
+}
+
+.partners .desc {
+    margin-top: 55px;
+}
+
+.partners .desc img {
+    width: 100%;
+}
+
+.partners .desc .right h1 {
+    font-size: 36px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 30px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.partners .desc .right h3 {
+    font-size: 18px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 30px;
+}
+
+.gallery {
+    margin-top: 60px;
+    padding-bottom: 25px;
+}
+
+.gallery .header h1 {
+    font-size: 36px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 1);
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 25px;
+    margin-bottom: 90px;
+}
+
+.gallery .header h1 .line {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 94px;
+    height: 5px;
+    background: rgba(51, 51, 51, 1);
+    position: absolute;
+}
+
+.gallery .list .item {
+    margin-bottom: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.gallery .list .item .inner {
+    width: 100%;
+}
+
+.gallery .list .item .inner .bg {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    padding-bottom: 50%;
+}
+
+.gallery .list1 .item:nth-child(1) .inner .bg:nth-child(1) {
+    background: url(../imgs/gallery01@2x.png) center;
+    background-size: cover;
+    padding-bottom: calc(50% - 10px);
+    margin-bottom: 10px;
+}
+
+.gallery .list1 .item:nth-child(1) .inner .bg:nth-child(2) {
+    background: url(../imgs/gallery02@2x.png) center;
+    background-size: cover;
+}
+
+.gallery .list1 .item:nth-child(2) .inner {
+    content: '';
+    padding-bottom: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../imgs/gallery03@2x.png) center;
+    background-size: cover;
+}
+
+.gallery .list2 .item:nth-child(2) .inner .bg:nth-child(1) {
+    padding-bottom: calc(50% - 10px);
+    margin-bottom: 10px;
+    background: url(../imgs/gallery05@2x.png) center;
+    background-size: cover;
+}
+
+.gallery .list2 .item:nth-child(2) .inner .bg:nth-child(2) {
+    background: url(../imgs/gallery06@2x.png) center;
+    background-size: cover;
+}
+
+.gallery .list2 .item:nth-child(1) .inner {
+    content: '';
+    padding-bottom: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../imgs/gallery04@2x.png) center;
+    background-size: cover;
 }
 
 .post {
@@ -204,4 +352,94 @@
     font-weight: 400;
     color: rgba(153, 153, 153, 1);
     line-height: 30px;
+}
+
+.contact {
+    margin-bottom: 150px;
+    position: relative;
+}
+
+.contact .msg {
+    padding: 38px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.contact .msg input, .contact .msg textarea {
+    width: 250px;
+    background: rgba(240, 246, 246, 1);
+    border-radius: 2px;
+    border: none;
+    padding: 0 10px;
+    resize:none;
+}
+
+.contact .msg .btn {
+    width: 100%;
+    text-align: center;
+}
+
+.contact .msg .btn button {
+    background: rgba(174, 190, 39, 1);
+}
+
+.contact .left {
+    background: rgba(174, 190, 39, 1);
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 25px;
+}
+
+.contact .left h4 {
+    margin-top: 100px;
+    font-size: 14px;
+    font-family: PingFang SC;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    line-height: 48px;
+}
+
+.contact .left h1 {
+    font-size: 30px;
+    font-family: PingFang SC;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    line-height: 48px;
+}
+
+.contact .left .list {
+    margin-bottom: 200px;
+}
+
+.contact .left .list .item {
+    display: flex;
+}
+
+.contact .left .list .item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    margin-top: 15px;
+}
+
+.contact .left .list .item .info {
+    flex: 1;
+}
+
+.contact .left .list .item .info p {
+    font-size: 18px;
+    font-family: PingFang SC;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    line-height: 48px;
+    margin: 0;
+}
+
+.contact .right {
+    background: url(../imgs/contact_bg@2x.png) right no-repeat;
+    background-size: auto 100%;
 }
