@@ -1,6 +1,6 @@
 .banner {
     height: 850px;
-    background: url(../imgs/banner4@2x.png) no-repeat center;
+    background: url(https://fastdfs-dev-test.uworks.cc/group1/M00/00/65/wKgBWl3A7BmAdbtJAD4SXV-9z_M378.png) no-repeat center;
     color: #fff;
     text-align: center;
     padding-top: 250px;
@@ -88,17 +88,17 @@
 }
 
 .wordImg .item:nth-child(2) .bg {
-    background: url(../imgs/wordImg02@2x.png) center;
+    background: url(https://fastdfs-dev-test.uworks.cc/group1/M00/00/65/wKgBWl3A7FqAYBm4AAxjKisSDFM842.png) center;
     background-size: cover;
 }
 
 .wordImg .item:nth-child(4) .bg {
-    background: url(../imgs/wordImg04@2x.png) center;
+    background: url(https://fastdfs-dev-test.uworks.cc/group1/M00/00/65/wKgBWl3A7FuAWOSZAAqhyX4n3qE769.png) center;
     background-size: cover;
 }
 
 .wordImg .item:nth-child(6) .bg {
-    background: url(../imgs/wordImg06@2x.png) center;
+    background: url(https://fastdfs-dev-test.uworks.cc/group1/M00/00/65/wKgBWl3A7GuAIOWiAAkgj8Do5SI278.png) center;
     background-size: cover;
 }
 
@@ -216,14 +216,14 @@
 }
 
 .gallery .list1 .item:nth-child(1) .inner .bg:nth-child(1) {
-    background: url(../imgs/gallery01@2x.png) center;
+    background: url(https://fastdfs-dev-test.uworks.cc/group1/M00/00/65/wKgBWl3A7gmAOSDlABHAFQqssQ0117.png) center;
     background-size: cover;
     padding-bottom: calc(50% - 10px);
     margin-bottom: 10px;
 }
 
 .gallery .list1 .item:nth-child(1) .inner .bg:nth-child(2) {
-    background: url(../imgs/gallery02@2x.png) center;
+    background: url(https://fastdfs-dev-test.uworks.cc/group1/M00/00/65/wKgBWl3A7huAV2ZxAA-rWFRai54846.png) center;
     background-size: cover;
 }
 
@@ -232,19 +232,19 @@
     padding-bottom: 100%;
     display: inline-block;
     vertical-align: middle;
-    background: url(../imgs/gallery03@2x.png) center;
+    background: url(https://fastdfs-dev-test.uworks.cc/group1/M00/00/65/wKgBWl3A7iWANeBJABNDjN-QpGQ831.png) center;
     background-size: cover;
 }
 
 .gallery .list2 .item:nth-child(2) .inner .bg:nth-child(1) {
     padding-bottom: calc(50% - 10px);
     margin-bottom: 10px;
-    background: url(../imgs/gallery05@2x.png) center;
+    background: url(https://fastdfs-dev-test.uworks.cc/group1/M00/00/65/wKgBWl3A7jGAUSEPABHi2ej_GtU946.png) center;
     background-size: cover;
 }
 
 .gallery .list2 .item:nth-child(2) .inner .bg:nth-child(2) {
-    background: url(../imgs/gallery06@2x.png) center;
+    background: url(https://fastdfs-dev-test.uworks.cc/group1/M00/00/65/wKgBWl3A7jmAXM5vAAz7YyHCURw884.png) center;
     background-size: cover;
 }
 
@@ -253,7 +253,7 @@
     padding-bottom: 100%;
     display: inline-block;
     vertical-align: middle;
-    background: url(../imgs/gallery04@2x.png) center;
+    background: url(https://fastdfs-dev-test.uworks.cc/group1/M00/00/65/wKgBWl3A7kSAZC2FACA91CmAVUA756.png) center;
     background-size: cover;
 }
 
@@ -440,6 +440,6 @@
 }
 
 .contact .right {
-    background: url(../imgs/contact_bg@2x.png) right no-repeat;
+    background: url(https://fastdfs-dev-test.uworks.cc/group1/M00/00/65/wKgBWl3A7ruAV4R8AAq68HsjSSQ357.png) right no-repeat;
     background-size: auto 100%;
 }
